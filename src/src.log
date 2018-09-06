@@ -1,0 +1,1162 @@
+[I][tm:2018-08-13 11:15:50][pt:24796:26916][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 11:15:51][pt:35872:33724][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 11:15:51][pt:35872:33724][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 11:15:52][pt:35872:32456][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 14:50:53][pt:52588:52592][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 14:50:55][pt:52856:1764][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 14:50:55][pt:52856:1764][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 14:50:56][pt:52856:52944][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 14:53:35][pt:53216:25132][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 14:53:36][pt:49108:50640][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 14:53:36][pt:49108:50640][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 14:53:37][pt:49108:51912][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 14:54:55][pt:52528:52768][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 14:54:57][pt:52460:53240][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 14:54:57][pt:52460:53240][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 14:54:58][pt:52460:52656][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 14:55:14][pt:52460:52656][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 14:55:14] "POST /v2/credential-photos/upload HTTP/1.1" 404 -
+[I][tm:2018-08-13 14:55:19][pt:52460:52656][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 14:55:19] "POST /v2/credential-photos/upload HTTP/1.1" 404 -
+[I][tm:2018-08-13 14:55:50][pt:52460:52656][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 14:55:50] "GET / HTTP/1.1" 404 -
+[I][tm:2018-08-13 14:57:18][pt:52460:53240][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\__init__.py', reloading
+[I][tm:2018-08-13 14:57:18][pt:52528:52768][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[I][tm:2018-08-13 17:50:31][pt:61528:62872][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 17:50:34][pt:62972:60904][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 17:50:34][pt:62972:60904][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 17:50:35][pt:62972:63020][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 19:08:44][pt:62972:60904][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\data_struct\\base_struct.py', reloading
+[I][tm:2018-08-13 19:08:44][pt:61528:62872][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[I][tm:2018-08-13 19:10:39][pt:11924:61068][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:10:41][pt:64460:19688][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:10:41][pt:64460:19688][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:10:42][pt:64460:62652][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 19:12:42][pt:64408:63660][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:12:44][pt:20220:61900][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:12:44][pt:20220:61900][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:12:45][pt:20220:62492][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 19:13:49][request_id:4cf5f349310b40baaf4740e20f6f3c35][request_timestamp:1534158829.29][service:push_service][service_version:v1.0.41][api_version:v2][pt:20220:62492][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{}]
+[I][tm:2018-08-13 19:13:49][pt:20220:62492][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{}]
+[E][tm:2018-08-13 19:13:49][pt:20220:62492][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 80, in wrapper
+    _args = request.args.to_dict() if request.method == 'GET' else json.loads(request.get_data())
+  File "D:\soft\python2.7\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\soft\python2.7\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\soft\python2.7\lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[E][tm:2018-08-13 19:13:49][pt:20220:62492][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 80, in wrapper
+    _args = request.args.to_dict() if request.method == 'GET' else json.loads(request.get_data())
+  File "D:\soft\python2.7\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\soft\python2.7\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\soft\python2.7\lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[E][tm:2018-08-13 19:13:49][pt:20220:62492][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: No JSON object could be decoded
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 80, in wrapper
+    _args = request.args.to_dict() if request.method == 'GET' else json.loads(request.get_data())
+  File "D:\soft\python2.7\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\soft\python2.7\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\soft\python2.7\lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[E][tm:2018-08-13 19:13:49][pt:20220:62492][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: No JSON object could be decoded
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 80, in wrapper
+    _args = request.args.to_dict() if request.method == 'GET' else json.loads(request.get_data())
+  File "D:\soft\python2.7\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\soft\python2.7\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\soft\python2.7\lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[I][tm:2018-08-13 19:13:49][pt:20220:62492][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:13:49] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][POST][tm:2018-08-13 19:14:32][request_id:fa43a55ab7fb45abb7f7184195bbfc8f][request_timestamp:1534158872.49][service:push_service][service_version:v1.0.41][api_version:v2][pt:20220:62492][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{}]
+[I][tm:2018-08-13 19:14:32][pt:20220:62492][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{}]
+[E][tm:2018-08-13 19:14:32][pt:20220:62492][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 80, in wrapper
+    _args = request.args.to_dict() if request.method == 'GET' else json.loads(request.get_data())
+  File "D:\soft\python2.7\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\soft\python2.7\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\soft\python2.7\lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[E][tm:2018-08-13 19:14:32][pt:20220:62492][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 80, in wrapper
+    _args = request.args.to_dict() if request.method == 'GET' else json.loads(request.get_data())
+  File "D:\soft\python2.7\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\soft\python2.7\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\soft\python2.7\lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[E][tm:2018-08-13 19:14:32][pt:20220:62492][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: No JSON object could be decoded
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 80, in wrapper
+    _args = request.args.to_dict() if request.method == 'GET' else json.loads(request.get_data())
+  File "D:\soft\python2.7\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\soft\python2.7\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\soft\python2.7\lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[E][tm:2018-08-13 19:14:32][pt:20220:62492][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: No JSON object could be decoded
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 80, in wrapper
+    _args = request.args.to_dict() if request.method == 'GET' else json.loads(request.get_data())
+  File "D:\soft\python2.7\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\soft\python2.7\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\soft\python2.7\lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[I][tm:2018-08-13 19:14:32][pt:20220:62492][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:14:32] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][POST][tm:2018-08-13 19:14:56][request_id:fd30c3f2a1874c1e9724ebaea193c9e2][request_timestamp:1534158896.19][service:push_service][service_version:v1.0.41][api_version:v2][pt:20220:62492][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{}]
+[I][tm:2018-08-13 19:14:56][pt:20220:62492][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{}]
+[E][tm:2018-08-13 19:15:02][pt:20220:62492][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:15:02][pt:20220:62492][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:15:02][pt:20220:62492][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: __init__() takes exactly 4 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:15:02][pt:20220:62492][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: __init__() takes exactly 4 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[I][tm:2018-08-13 19:15:02][pt:20220:62492][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:15:02] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][POST][tm:2018-08-13 19:15:38][request_id:5e0fc2a93823401b84e5d4e0e81a2559][request_timestamp:1534158938.27][service:push_service][service_version:v1.0.41][api_version:v2][pt:20220:62492][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:15:38][pt:20220:62492][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[E][tm:2018-08-13 19:15:38][pt:20220:62492][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:15:38][pt:20220:62492][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:15:38][pt:20220:62492][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: __init__() takes exactly 4 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:15:38][pt:20220:62492][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: __init__() takes exactly 4 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[I][tm:2018-08-13 19:15:38][pt:20220:62492][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:15:38] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][tm:2018-08-13 19:15:46][pt:48508:62792][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:15:49][pt:64208:62784][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:15:49][pt:64208:62784][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:15:50][pt:64208:63484][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 19:15:50][request_id:a3153b8e80484d08ba9c5c4ec4603b73][request_timestamp:1534158950.27][service:push_service][service_version:v1.0.41][api_version:v2][pt:64208:63484][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:15:50][pt:64208:63484][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[E][tm:2018-08-13 19:15:56][pt:64208:63484][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:15:56][pt:64208:63484][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:15:56][pt:64208:63484][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: __init__() takes exactly 4 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:15:56][pt:64208:63484][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: __init__() takes exactly 4 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[I][tm:2018-08-13 19:16:26][pt:64208:63484][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:16:26] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][POST][tm:2018-08-13 19:17:23][request_id:c96a0504b23b4688891543487552eaba][request_timestamp:1534159043.64][service:push_service][service_version:v1.0.41][api_version:v2][pt:64208:63484][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:17:23][pt:64208:63484][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[E][tm:2018-08-13 19:17:23][pt:64208:63484][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:17:23][pt:64208:63484][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:17:23][pt:64208:63484][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: __init__() takes exactly 4 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:17:23][pt:64208:63484][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: __init__() takes exactly 4 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[I][tm:2018-08-13 19:17:23][pt:64208:63484][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:17:23] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][tm:2018-08-13 19:17:29][pt:61100:44460][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:17:31][pt:63484:16556][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:17:31][pt:63484:16556][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:17:32][pt:63484:53880][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 19:17:34][request_id:523ecab6285549e8b35b449eb8bed334][request_timestamp:1534159054.42][service:push_service][service_version:v1.0.41][api_version:v2][pt:63484:53880][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:17:34][pt:63484:53880][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[E][tm:2018-08-13 19:17:39][pt:63484:53880][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:17:39][pt:63484:53880][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:17:39][pt:63484:53880][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: __init__() takes exactly 4 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[E][tm:2018-08-13 19:17:39][pt:63484:53880][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: __init__() takes exactly 4 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 39, in post
+    credential_photos_upload_structure = CredentialPhotosUploadStructure()
+TypeError: __init__() takes exactly 4 arguments (1 given)
+[I][tm:2018-08-13 19:17:39][pt:63484:53880][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:17:39] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][tm:2018-08-13 19:29:18][pt:63484:16556][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\config.py', reloading
+[I][tm:2018-08-13 19:29:18][pt:61100:44460][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:29:27][pt:20984:35080][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:29:27][pt:20984:35080][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:29:28][pt:20984:33900][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 19:34:14][pt:20984:35080][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 19:34:14][pt:61100:44460][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:34:16][pt:64348:46904][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:34:16][pt:64348:46904][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:34:17][pt:64348:24552][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 19:34:59][pt:64348:46904][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 19:34:59][pt:61100:44460][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:35:01][pt:8436:44308][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:35:01][pt:8436:44308][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:35:02][pt:8436:46144][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 19:35:02][pt:8436:44308][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 19:35:02][pt:61100:44460][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:35:05][pt:21072:59504][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:35:05][pt:21072:59504][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:35:06][pt:21072:63920][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 19:37:45][pt:21072:59504][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 19:37:45][pt:61100:44460][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:37:48][pt:11704:62832][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:37:48][pt:11704:62832][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:37:49][pt:11704:63084][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 19:37:54][pt:60352:8440][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:37:56][pt:22952:63208][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:37:56][pt:22952:63208][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:37:57][pt:22952:63296][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 19:37:58][request_id:4900082ee22b42d59181d6f87a0b51af][request_timestamp:1534160278.06][service:push_service][service_version:v1.0.41][api_version:v2][pt:22952:63296][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:37:58][pt:22952:63296][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[E][tm:2018-08-13 19:37:58][pt:22952:63296][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 52, in post
+    shangHaiTools.downloadImageFile(a)
+TypeError: unbound method downloadImageFile() must be called with shangHaiTools instance as first argument (got unicode instance instead)
+[E][tm:2018-08-13 19:37:58][pt:22952:63296][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 52, in post
+    shangHaiTools.downloadImageFile(a)
+TypeError: unbound method downloadImageFile() must be called with shangHaiTools instance as first argument (got unicode instance instead)
+[E][tm:2018-08-13 19:37:58][pt:22952:63296][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: unbound method downloadImageFile() must be called with shangHaiTools instance as first argument (got unicode instance instead)
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 52, in post
+    shangHaiTools.downloadImageFile(a)
+TypeError: unbound method downloadImageFile() must be called with shangHaiTools instance as first argument (got unicode instance instead)
+[E][tm:2018-08-13 19:37:58][pt:22952:63296][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: unbound method downloadImageFile() must be called with shangHaiTools instance as first argument (got unicode instance instead)
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 52, in post
+    shangHaiTools.downloadImageFile(a)
+TypeError: unbound method downloadImageFile() must be called with shangHaiTools instance as first argument (got unicode instance instead)
+[I][tm:2018-08-13 19:37:58][pt:22952:63296][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:37:58] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][tm:2018-08-13 19:38:23][pt:22952:63208][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 19:38:23][pt:60352:8440][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:38:26][pt:45732:63068][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:38:26][pt:45732:63068][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:38:27][pt:45732:60900][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 19:38:28][pt:45732:63068][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 19:38:28][pt:60352:8440][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:38:31][pt:44332:63732][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:38:31][pt:44332:63732][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:38:31][pt:44332:30352][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 19:38:33][request_id:30f16cf008bf4ba2b1e47b6344b7fdeb][request_timestamp:1534160313.39][service:push_service][service_version:v1.0.41][api_version:v2][pt:44332:30352][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:38:33][pt:44332:30352][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:39:03][pt:44332:30352][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:39:03] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][tm:2018-08-13 19:40:00][pt:44332:63732][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 19:40:00][pt:60352:8440][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:40:03][pt:63984:63156][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:40:03][pt:63984:63156][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:40:06][pt:63636:58572][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:40:08][pt:59284:26776][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:40:08][pt:59284:26776][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:40:09][pt:59284:62820][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 19:40:36][request_id:dded1fd185da441c9e7f717de8fbeba2][request_timestamp:1534160436.45][service:push_service][service_version:v1.0.41][api_version:v2][pt:59284:62820][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:40:36][pt:59284:62820][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:41:21][pt:30472:63340][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:41:23][pt:63188:63800][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:41:23][pt:63188:63800][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:41:24][pt:63188:63552][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 19:41:26][request_id:917a47eee21b4383b08506acac87bb00][request_timestamp:1534160486.03][service:push_service][service_version:v1.0.41][api_version:v2][pt:63188:63552][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:41:26][pt:63188:63552][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:42:31][pt:62564:63104][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:42:34][pt:37604:11272][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:42:34][pt:37604:11272][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:42:35][pt:37604:64284][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 19:42:35][request_id:8985e3cfa1f549b79b45be2cb9a052dd][request_timestamp:1534160555.52][service:push_service][service_version:v1.0.41][api_version:v2][pt:37604:64284][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:42:35][pt:37604:64284][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:42:45][pt:37604:64284][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:42:45] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][tm:2018-08-13 19:43:25][pt:37604:11272][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\config.py', reloading
+[I][tm:2018-08-13 19:43:25][pt:62564:63104][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[I][tm:2018-08-13 19:43:29][pt:47712:8440][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:43:31][pt:33540:53408][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:43:31][pt:33540:53408][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:43:32][pt:33540:19304][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 19:43:33][request_id:9248bb2911e244e39111e9c74caf2fb1][request_timestamp:1534160613.6][service:push_service][service_version:v1.0.41][api_version:v2][pt:33540:19304][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:43:33][pt:33540:19304][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:43:40][pt:33540:19304][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:43:40] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][tm:2018-08-13 19:44:13][pt:33540:53408][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\config.py', reloading
+[I][tm:2018-08-13 19:44:14][pt:47712:8440][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[I][tm:2018-08-13 19:44:18][pt:55196:19768][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:44:21][pt:24580:51124][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:44:21][pt:24580:51124][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:44:22][pt:24580:36252][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 19:44:36][pt:53200:54192][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:44:39][pt:51940:55752][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:44:39][pt:51940:55752][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:44:40][pt:51940:57656][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 19:44:42][request_id:af42aff3e82c49e4a34213b7e87bc299][request_timestamp:1534160682.38][service:push_service][service_version:v1.0.41][api_version:v2][pt:51940:57656][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:44:42][pt:51940:57656][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:44:56][pt:51940:55752][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\config.py', reloading
+[I][tm:2018-08-13 19:44:56][pt:53200:54192][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[I][tm:2018-08-13 19:45:00][pt:43024:62844][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:45:02][pt:46580:18416][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:45:02][pt:46580:18416][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:45:03][pt:46580:40092][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 19:45:03][request_id:506ec6d4d7d34650b58e19acfa75c018][request_timestamp:1534160703.51][service:push_service][service_version:v1.0.41][api_version:v2][pt:46580:40092][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:45:03][pt:46580:40092][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[E][tm:2018-08-13 19:45:08][pt:46580:40092][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 54, in post
+    shangHaiTools.downloadImageFile(a)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 23, in downloadImageFile
+    with open(file_path, 'wb') as f:
+IOError: [Errno 2] No such file or directory: u'./temp_file/id_card_a.jpg'
+[E][tm:2018-08-13 19:45:08][pt:46580:40092][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 54, in post
+    shangHaiTools.downloadImageFile(a)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 23, in downloadImageFile
+    with open(file_path, 'wb') as f:
+IOError: [Errno 2] No such file or directory: u'./temp_file/id_card_a.jpg'
+[E][tm:2018-08-13 19:45:08][pt:46580:40092][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: 
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 54, in post
+    shangHaiTools.downloadImageFile(a)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 23, in downloadImageFile
+    with open(file_path, 'wb') as f:
+IOError: [Errno 2] No such file or directory: u'./temp_file/id_card_a.jpg'
+[E][tm:2018-08-13 19:45:08][pt:46580:40092][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: 
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 54, in post
+    shangHaiTools.downloadImageFile(a)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 23, in downloadImageFile
+    with open(file_path, 'wb') as f:
+IOError: [Errno 2] No such file or directory: u'./temp_file/id_card_a.jpg'
+[I][tm:2018-08-13 19:45:08][pt:46580:40092][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:45:08] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][POST][tm:2018-08-13 19:45:28][request_id:aba49bf147d143d6a5993a77de716fc4][request_timestamp:1534160728.51][service:push_service][service_version:v1.0.41][api_version:v2][pt:46580:40092][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:45:28][pt:46580:40092][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:45:37][pt:46580:40092][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:45:37] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][tm:2018-08-13 19:46:14][pt:46580:18416][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 19:46:14][pt:43024:62844][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:46:16][pt:26484:47220][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:46:16][pt:26484:47220][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:46:17][pt:26484:4832][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 19:46:24][pt:31600:30880][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:46:26][pt:24756:15964][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:46:26][pt:24756:15964][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:46:27][pt:24756:35112][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 19:46:33][request_id:4aeb98d4b54a4b2f8cfea6e2518ff9f9][request_timestamp:1534160793.08][service:push_service][service_version:v1.0.41][api_version:v2][pt:24756:35112][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:46:33][pt:24756:35112][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 19:46:44][pt:24756:35112][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 19:46:44] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][tm:2018-08-13 19:48:37][pt:24756:15964][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 19:48:37][pt:31600:30880][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:48:39][pt:41016:42688][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:48:39][pt:41016:42688][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:48:40][pt:41016:14072][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 19:49:22][pt:41016:42688][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 19:49:22][pt:31600:30880][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:49:25][pt:29680:33008][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:49:25][pt:29680:33008][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:49:26][pt:29680:33300][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 19:57:44][pt:29680:33008][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 19:57:44][pt:31600:30880][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 19:57:47][pt:62812:60036][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 19:57:47][pt:62812:60036][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 19:57:48][pt:62812:6576][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 19:58:16][pt:62812:60036][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 19:58:16][pt:31600:30880][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[I][tm:2018-08-13 20:12:21][pt:45592:10396][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 20:12:23][pt:47448:16680][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 20:12:23][pt:47448:16680][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 20:12:24][pt:47448:40224][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 20:12:28][request_id:6a9fd3aede2440c68f78c3e97343df86][request_timestamp:1534162348.5][service:push_service][service_version:v1.0.41][api_version:v2][pt:47448:40224][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:12:28][pt:47448:40224][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[E][tm:2018-08-13 20:12:36][pt:47448:40224][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 84, in post
+    shangHaiTools.discern_id_card(a)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 43, in discern_id_card
+    with open(img_path, "rb") as f:
+IOError: [Errno 22] invalid mode ('rb') or filename: u'http://www.kerrygao.com/id_card_a.jpg'
+[E][tm:2018-08-13 20:12:36][pt:47448:40224][file:exception:exception_error_handler:36][D:/workspace/eaccount-service/src\server\exception.py] service has exception
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 84, in post
+    shangHaiTools.discern_id_card(a)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 43, in discern_id_card
+    with open(img_path, "rb") as f:
+IOError: [Errno 22] invalid mode ('rb') or filename: u'http://www.kerrygao.com/id_card_a.jpg'
+[E][tm:2018-08-13 20:12:36][pt:47448:40224][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: 
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 84, in post
+    shangHaiTools.discern_id_card(a)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 43, in discern_id_card
+    with open(img_path, "rb") as f:
+IOError: [Errno 22] invalid mode ('rb') or filename: u'http://www.kerrygao.com/id_card_a.jpg'
+[E][tm:2018-08-13 20:12:36][pt:47448:40224][file:exception:exception_error_handler:43][D:/workspace/eaccount-service/src\server\exception.py] service has exception: 
+Traceback (most recent call last):
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\soft\python2.7\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask\views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\soft\python2.7\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\base_resource.py", line 82, in wrapper
+    return func(self, _args, *args, **kwargs)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 84, in post
+    shangHaiTools.discern_id_card(a)
+  File "D:/workspace/eaccount-service/src\server\resource\v2\CredentialPhotosResource.py", line 43, in discern_id_card
+    with open(img_path, "rb") as f:
+IOError: [Errno 22] invalid mode ('rb') or filename: u'http://www.kerrygao.com/id_card_a.jpg'
+[I][tm:2018-08-13 20:12:36][pt:47448:40224][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 20:12:36] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][tm:2018-08-13 20:13:45][pt:47448:16680][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 20:13:45][pt:45592:10396][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 20:13:47][pt:44200:52704][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 20:13:47][pt:44200:52704][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 20:13:48][pt:44200:50804][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 20:13:50][pt:44200:52704][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 20:13:50][pt:45592:10396][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 20:13:53][pt:33776:35116][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 20:13:53][pt:33776:35116][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 20:13:53][pt:33776:63380][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 20:13:58][request_id:c8f6b35526c3428d834ae9e79e853012][request_timestamp:1534162438.9][service:push_service][service_version:v1.0.41][api_version:v2][pt:33776:63380][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:13:58][pt:33776:63380][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:14:52][pt:33776:63380][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [13/Aug/2018 20:14:52] "POST /v2/credential-photos/upload HTTP/1.1" 200 -
+[I][tm:2018-08-13 20:15:56][pt:33776:35116][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 20:15:56][pt:45592:10396][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 20:15:59][pt:61964:55324][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 20:15:59][pt:61964:55324][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 20:15:59][pt:61964:64312][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][tm:2018-08-13 20:16:15][pt:61964:55324][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 20:16:16][pt:45592:10396][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 20:16:18][pt:40576:20848][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 20:16:18][pt:40576:20848][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 20:16:19][pt:40576:42312][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 20:16:25][request_id:44d3928a618b46728326d87289291807][request_timestamp:1534162585.82][service:push_service][service_version:v1.0.41][api_version:v2][pt:40576:42312][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:16:25][pt:40576:42312][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:17:25][pt:4152:47400][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 20:17:28][pt:60312:59712][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 20:17:28][pt:60312:59712][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 20:17:29][pt:60312:63568][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 20:17:33][request_id:835f0a5f0a66474a8fe55acdaf1e8cd6][request_timestamp:1534162653.98][service:push_service][service_version:v1.0.41][api_version:v2][pt:60312:63568][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:17:33][pt:60312:63568][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:18:22][pt:33248:24584][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 20:18:24][pt:38032:40092][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 20:18:24][pt:38032:40092][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 20:18:25][pt:38032:39076][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 20:18:29][request_id:1b502000c5ef4e478100cbdf607393c2][request_timestamp:1534162709.8][service:push_service][service_version:v1.0.41][api_version:v2][pt:38032:39076][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:18:29][pt:38032:39076][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:19:56][pt:64464:35264][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 20:19:58][pt:56440:21772][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 20:19:58][pt:56440:21772][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 20:19:59][pt:56440:12244][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 20:20:01][request_id:a02328ab04304b07aae14ba78387a4dc][request_timestamp:1534162801.29][service:push_service][service_version:v1.0.41][api_version:v2][pt:56440:12244][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:20:01][pt:56440:12244][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:44:54][pt:50040:44780][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 20:44:57][pt:54916:11660][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 20:44:57][pt:54916:11660][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 20:44:58][pt:54916:42356][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 20:44:58][request_id:247142d68d2e450484ff092755ce8cbc][request_timestamp:1534164298.18][service:push_service][service_version:v1.0.41][api_version:v2][pt:54916:42356][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:44:58][pt:54916:42356][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:46:27][pt:50056:284][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[W][tm:2018-08-13 20:46:29][pt:11188:1584][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[I][tm:2018-08-13 20:46:29][pt:11188:1584][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 235-671-806
+[I][tm:2018-08-13 20:46:30][pt:11188:49532][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[I][POST][tm:2018-08-13 20:46:31][request_id:7f422254bb384389a4e6756f384521db][request_timestamp:1534164391.26][service:push_service][service_version:v1.0.41][api_version:v2][pt:11188:49532][file:base_resource:__init__:37] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:46:31][pt:11188:49532][file:base_resource:__init__:37][D:/workspace/eaccount-service/src\server\base_resource.py] access CredentialPhotosResource request data is: [{
+	"front_url":"xxx",
+	"back_url":"qqqqq",
+	"regist_serial":"wwwwwwwwwww"
+}]
+[I][tm:2018-08-13 20:48:32][pt:11188:1584][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'D:\\workspace\\eaccount-service\\src\\server\\resource\\v2\\CredentialPhotosResource.py', reloading
+[I][tm:2018-08-13 20:48:32][pt:50056:284][file:_internal:_log:87][D:\soft\python2.7\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat

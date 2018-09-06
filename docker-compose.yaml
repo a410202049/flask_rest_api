@@ -1,0 +1,87 @@
+version: '2'
+services:
+  eaccount-service-nginx:
+    image: eaccount-service-nginx
+    restart: always
+    ports:
+      - '80/tcp'
+    environment:
+      - TZ=Asia/Shanghai
+    mem_limit: 209715200
+    links:
+      - eaccount-service-01:eaccount-service01
+      - eaccount-service-02:eaccount-service02
+    networks:
+      - axinfuappserverv2_default
+
+  eaccount-service-01:
+    image: 'eaccount-service'
+    restart: always
+    hostname: eaccount-service01.axinfu
+    environment:
+      - SERVER_ID=develop01
+      - SERVICE_ID=eaccount-service
+    command: uwsgi --processes=1 -M --gevent=100 --http-socket :80 -w devel:app
+    ports:
+      - '10080/tcp'
+    volumes:
+      - '/var/log/micro-service:/var/log/micro-service/'
+      - './share:/share'
+    mem_limit: 192m
+    networks:
+      - axinfuappserverv2_default
+
+  eaccount-service-02:
+    image: 'eaccount-service'
+    restart: always
+    hostname: eaccount-service02.axinfu
+    environment:
+      - SERVER_ID=develop01
+      - SERVICE_ID=eaccount-service
+    command: uwsgi --processes=1 -M --gevent=100 --http-socket :80 -w devel:app
+    ports:
+      - '10080/tcp'
+    volumes:
+      - '/var/log/micro-service:/var/log/micro-service/'
+      - './share:/share'
+    mem_limit: 192m
+    networks:
+      - axinfuappserverv2_default
+
+  eaccount-service-celery-beat:
+    image: 'eaccount-service'
+    restart: always
+    hostname: eaccount-service05.axinfu
+    environment:
+      - SERVER_ID=develop01
+      - SERVICE_ID=eaccount-service
+    command: celery -A devel.celery worker -c 1000 -P gevent
+    ports:
+      - '10080/tcp'
+    volumes:
+      - '/var/log/micro-service:/var/log/micro-service/'
+      - './share:/share'
+    mem_limit: 192m
+    networks:
+      - axinfuappserverv2_default
+
+  eaccount-service-celery-work:
+    image: 'eaccount-service'
+    restart: always
+    hostname: appserver06.axinfu
+    environment:
+      - SERVER_ID=develop01
+      - SERVICE_ID=eaccount-service
+    command: celery -A devel.celery beat
+    ports:
+      - '10080/tcp'
+    volumes:
+      - '/var/log/micro-service:/var/log/micro-service/'
+      - './share:/share'
+    mem_limit: 192m
+    networks:
+      - axinfuappserverv2_default
+
+networks:
+  axinfuappserverv2_default:
+    external: true
