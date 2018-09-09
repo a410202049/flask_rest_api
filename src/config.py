@@ -22,6 +22,8 @@ class DefaultConfig(object):
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_ECHO = False
 
+    NETWORK_FORMATTER = '[%(levelname)1.1s][%(method)s][tm:%(asctime)s][request_id:%(request_id)s]' \
+                        '[file:%(module)s:%(funcName)s:%(lineno)d] %(message)s'
     SWAGGER_PATH = '/swagger'
 
     RESTPLUS_VALIDATE = True
@@ -35,8 +37,8 @@ class DefaultConfig(object):
 
 class LocalConfig(DefaultConfig):
     DEBUG = False
-    SQLALCHEMY_ECHO = True
-    LOG_PATH = './src.log'
+    SQLALCHEMY_ECHO = False
+    # LOG_PATH = './src.log'
 
     SQLALCHEMY_DATABASE_URI = "mysql://root:123456@127.0.0.1/flask_base_plus?charset=utf8"
     DB_SESSION_OPTIONS = dict(autocommit=False, autoflush=False, expire_on_commit=False)

@@ -32,9 +32,9 @@ class BaseResource(Resource):
         self.context.config_name = current_app.config.get('CONFIG_NAME', None)
         self.context.config = current_app.config
         self.logger = logging.get_logger(context=self.context, name='network')
-        self.logger.info('access {resource} request data is: [{request}]'
+        self.logger.info('Request: [{base_url}][{request}]'
                          .format(resource=self.__class__.__name__,
-                                 request=request.data or request.form.to_dict() or request.args.to_dict()))
+                                 base_url=request.base_url, request=request.data or request.form.to_dict() or request.args.to_dict()))
         self.context.logger = self.logger
         super(BaseResource, self).__init__(api, *args, **kwargs)
 
@@ -46,7 +46,7 @@ class BaseResource(Resource):
 
         if response:
             resp.update(response)
-        self.logger.info('resp data is: [{resp}]'.format(resp=resp))
+        self.logger.info('Response: [{resp}]'.format(resp=resp))
         return resp
 
 

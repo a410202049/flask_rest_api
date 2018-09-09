@@ -20,7 +20,9 @@ class UserResource(BaseResource):
         name_list = []
         for user in users:
             name_list.append(user.username)
-
+        a = 0 / 1
+        b = 1 / 0
+        self.logger.info('hahh')
         return self.make_response({'name_list': name_list})
 
 
