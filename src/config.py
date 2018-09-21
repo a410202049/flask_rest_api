@@ -14,6 +14,7 @@ location = lambda x: os.path.join(os.path.dirname(os.path.realpath(__file__)), x
 
 class DefaultConfig(object):
     DEBUG = False
+    SECRET_KEY = '\x03d\xf4\x95J\x15\xa4B\xfb\xc0\xaf \xd1A[j$}\x18\x16a\xe7\xd0\xec'
     LOG_PATH = '/var/log/micro-service/src.log'
     UPLOAD_TEMP_PATH = './temp_file/'
     SERVICE_NAME = 'api_service'
@@ -21,6 +22,20 @@ class DefaultConfig(object):
     HOSTNAME = platform.node()
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_ECHO = False
+
+    # JWT CONFIG
+    JWT_ACCESS_TOKEN_EXPIRES = timedelta(minutes=15)
+    JWT_REFRESH_TOKEN_EXPIRES = timedelta(days=30)
+    JWT_BLACKLIST_ENABLED = True
+    JWT_BLACKLIST_TOKEN_CHECKS = ['access', 'refresh']
+
+    # REDIS CONFIG
+    REDIS_CACHES = {
+        'host': '127.0.0.1',
+        'port': '6379',
+        'db': 0,
+        'password': ''
+    }
 
     NETWORK_FORMATTER = '[%(levelname)1.1s][%(method)s][tm:%(asctime)s][request_id:%(request_id)s]' \
                         '[file:%(module)s:%(funcName)s:%(lineno)d] %(message)s'

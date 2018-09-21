@@ -3,6 +3,8 @@
 from __future__ import absolute_import
 from __future__ import unicode_literals
 
+from flask_jwt_extended.exceptions import RevokedTokenError, FreshTokenRequired
+from jwt import ExpiredSignatureError
 from library.logger import log as logging
 from server.app import ResourceResponse
 
@@ -10,20 +12,41 @@ SUCCESS = 'RES0000'
 INVALID_REQUEST_VALUE = 'RES0001'
 SIGNATURE_ERROR = 'RES0002'
 RULE_NOT_FOUND = 'RES0003'
+TOKEN_EXPIRED = 'RES0004'
+TOKEN_REVOKED = 'RES0005'
+TOKEN_FRESH = 'RES0006'
+
 SYSTEM_ERROR = 'RES9999'
-
-
 logger = logging.get_logger()
-
 
 def init_api_error(api):
     if not api:
         raise RuntimeError('api is None')
 
+    @api.errorhandler(ExpiredSignatureError)
+    def handle_expired_error(e):
+        logger.exception(u'ExpiredSignatureError {0}'.format(e.message))
+        error_code, error_msg = TOKEN_EXPIRED, 'Token过期'
+        resp = ResourceResponse(error_code, error_msg)
+        return resp.get_base_response(), 401, resp.get_response_headers()
+
+    @api.errorhandler(RevokedTokenError)
+    def handle_revoked_token_error(e):
+        logger.exception(u'RevokedTokenError {0}'.format(e.message))
+        error_code, error_msg = TOKEN_REVOKED, 'Token已作废'
+        resp = ResourceResponse(error_code, error_msg)
+        return resp.get_base_response(), 401, resp.get_response_headers()
+
+    @api.errorhandler(FreshTokenRequired)
+    def handle_revoked_token_error(e):
+        logger.exception(u'RevokedTokenError {0}'.format(e.message))
+        error_code, error_msg = TOKEN_FRESH, '请使用新鲜的Token'
+        resp = ResourceResponse(error_code, error_msg)
+        return resp.get_base_response(), 401, resp.get_response_headers()
+
     @api.errorhandler
     def exception_error_handler(e):
         logger.exception(u'service has exception')
-
         error_code, error_msg = SYSTEM_ERROR, 'system error'
         if isinstance(e, ResourceBaseException):
             error_code = e.error_code
@@ -33,6 +56,7 @@ def init_api_error(api):
 
         resp = ResourceResponse(error_code, error_msg)
         return resp.get_base_response(), 200, resp.get_response_headers()
+
 
 
 class ResourceBaseException(Exception):

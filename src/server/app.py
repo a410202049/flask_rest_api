@@ -6,14 +6,16 @@ from __future__ import unicode_literals
 import json
 import time
 
-from flask import Flask
+from flask import Flask, jsonify
 from flask import Response
 from flask_restplus import Api
 from library import context
 from library.logger.log import init_logger_from_object
 
-app = None
+from flask_jwt_extended import JWTManager
 
+app = None
+jwt = None
 
 def create_app(config):
     import sys
@@ -43,10 +45,55 @@ def create_app(config):
     from library import db_session
     db_session.init_app(app)
 
+    # init redis
+    from utils import redis_cache
+    redis_cache.init_app(app)
+
     from server.dao import init_app
     init_app(app)
 
+    global jwt
+    jwt = JWTManager(app)
+
+    from utils.redis_cache import get_client
+
+    # issues flask-jwt-extended 和 flask_restplaus 不能调用  jwt.expired_token_loader 等回调
+    # 参考https://github.com/vimalloc/flask-jwt-extended/issues/86
+
+    # @jwt.user_claims_loader
+    # def add_claims_to_access_token(identity):
+    #     # 再token中添加额外数据
+    #     return {
+    #         'email': identity['email']
+    #     }
+
+    # @jwt.user_identity_loader
+    # def user_identity_lookup(user):
+    #     return user
+
+    # @jwt.user_loader_callback_loader
+    # def user_loader_callback(identity):
+    #
+    #     current = {
+    #         "test": "123",
+    #         "user": identity
+    #     }
+    #     return current
+
+    @jwt.token_in_blacklist_loader
+    def check_if_token_is_revoked(decrypted_token):
+        # 检查token是否被作废
+        _redis = get_client()
+        jti = decrypted_token['jti']
+        entry = _redis.get(jti)
+        if entry is None:
+            return True
+        return entry == 'true'
+
+
     return app
+
+
 
 
 class ResourceResponse(Response):
@@ -58,7 +105,6 @@ class ResourceResponse(Response):
         self.resp_desc = resp_desc
         self.timestamp = timestamp if timestamp else str(time.time()).replace('.', '')
 
-        self.signature = '123'
         if response is None:
             kwargs['response'] = json.dumps(self.get_base_response())
         super(ResourceResponse, self).__init__(**kwargs)
@@ -70,8 +116,8 @@ class ResourceResponse(Response):
         :return:
         """
         headers = {'content-type': 'application/json;charset=utf-8',
-                   'X-timestamp': self.timestamp,
-                   'X-sign': self.signature}
+                   'X-timestamp': self.timestamp
+                   }
         return headers
 
     def get_base_response(self):

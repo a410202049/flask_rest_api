@@ -15,5 +15,6 @@ def init_api(api):
     api.version = 'v2'
 
     __import__('server.resource.v2.UserResource')
+    __import__('server.resource.v2.LoginResource')
 
 
