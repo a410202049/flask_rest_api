@@ -28,6 +28,13 @@ class DefaultConfig(object):
     JWT_REFRESH_TOKEN_EXPIRES = timedelta(days=30)
     JWT_BLACKLIST_ENABLED = True
     JWT_BLACKLIST_TOKEN_CHECKS = ['access', 'refresh']
+    JWT_ALGORITHM = 'HS256'
+
+    JWT_TOKEN_LOCATION = ['headers']
+    JWT_HEADER_NAME = 'Authorization'
+    JWT_HEADER_TYPE = ''
+    # JWT_JSON_KEY = 'access_token'
+    # JWT_REFRESH_JSON_KEY = 'refresh_token'
 
     # REDIS CONFIG
     REDIS_CACHES = {

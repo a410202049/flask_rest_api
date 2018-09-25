@@ -3,7 +3,7 @@
 from __future__ import absolute_import
 from __future__ import unicode_literals
 
-from flask_jwt_extended.exceptions import RevokedTokenError, FreshTokenRequired
+from flask_jwt_extended.exceptions import RevokedTokenError, FreshTokenRequired, InvalidHeaderError
 from jwt import ExpiredSignatureError
 from library.logger import log as logging
 from server.app import ResourceResponse
@@ -15,6 +15,7 @@ RULE_NOT_FOUND = 'RES0003'
 TOKEN_EXPIRED = 'RES0004'
 TOKEN_REVOKED = 'RES0005'
 TOKEN_FRESH = 'RES0006'
+INVALID_HEADER = 'RES0007'
 
 SYSTEM_ERROR = 'RES9999'
 logger = logging.get_logger()
@@ -36,6 +37,15 @@ def init_api_error(api):
         error_code, error_msg = TOKEN_REVOKED, 'Token已作废'
         resp = ResourceResponse(error_code, error_msg)
         return resp.get_base_response(), 401, resp.get_response_headers()
+
+    @api.errorhandler(InvalidHeaderError)
+    def handle_revoked_token_error(e):
+        logger.exception(u'InvalidHeaderError {0}'.format(e.message))
+        error_code, error_msg = INVALID_HEADER, '无效的header请求'
+        resp = ResourceResponse(error_code, error_msg)
+        return resp.get_base_response(), 401, resp.get_response_headers()
+
+    # InvalidHeaderError
 
     @api.errorhandler(FreshTokenRequired)
     def handle_revoked_token_error(e):
