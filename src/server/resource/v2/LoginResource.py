@@ -91,8 +91,11 @@ class RefreshsRevokeResource(BaseResource):
 @v2.route('/protected')
 class ProtectedResource(BaseResource):
     @fresh_jwt_required
+    @resource_method()
     def post(self, **request):
         current_user = get_jwt_identity()
+
+        print request
         # current = get_current_user()
         # a = decode_token('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIwMDRkOWY1MC1mY2UyLTQ0OGItYmU5Mi05NGVhMWNmYzVhZmYiLCJleHAiOjE1Mzc1MTY0MTMsImZyZXNoIjp0cnVlLCJpYXQiOjE1Mzc1MTU1MTMsInR5cGUiOiJhY2Nlc3MiLCJuYmYiOjE1Mzc1MTU1MTMsImlkZW50aXR5Ijp7InVzZXJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6IjEyMjJAcXEuY29tIn19.X4Y8Lh0Rt7ZyJHl-iyjEIFMDE6gMWo_T_TDeMqxh1HY')
         return self.make_response({"current_user": current_user})
