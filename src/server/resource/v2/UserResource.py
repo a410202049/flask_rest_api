@@ -6,9 +6,6 @@ from __future__ import unicode_literals
 from server.base_resource import BaseResource, resource_method
 from server.dao.user_dao import UserDao
 from server.resource.v2 import v2
-from utils.redis_cache import get_client
-
-
 
 @v2.route('/users')
 class UserResource(BaseResource):
