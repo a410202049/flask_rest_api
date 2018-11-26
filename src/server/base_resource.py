@@ -55,14 +55,14 @@ def check_request(message_rules):
     def actual_decorator(func):
 
         @functools.wraps(func)
-        def wrapper(self, request, *args, **kwargs):
+        def wrapper(self, **kwargs):
             # verify request data
             if message_rules:
-                result, request = check_dict(request, message_rules)
+                result, request = check_dict(kwargs, message_rules)
                 if not result:
                     raise IllegalRequestException(request)
 
-            response = func(self, request, *args, **kwargs)
+            response = func(self, **kwargs)
 
             response = response if response is not None else {}
 
@@ -76,12 +76,13 @@ def check_request(message_rules):
 def resource_method():
     def actual_decorator(func):
         @functools.wraps(func)
-        def wrapper(self, *args, **kwargs):
-            _args = tuple(kwargs.values())
-            _args += args
-            _kwargs = request.args.to_dict() if request.method == 'GET' else json.loads(request.get_data())
+        def wrapper(self, **kwargs):
+            _kwargs = kwargs
+            _kwargs.update(json.loads(request.get_data())) if request.get_data() else None
+            _kwargs.update(request.args.to_dict()) if request.args.to_dict() else None
+            # _kwargs = request.args.to_dict() if request.method == 'GET' else json.loads(request.get_data())
 
-            return func(self, *_args, **_kwargs)
+            return func(self, **_kwargs)
 
         return wrapper
     return actual_decorator

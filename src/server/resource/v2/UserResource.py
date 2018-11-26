@@ -3,9 +3,11 @@
 from __future__ import absolute_import
 from __future__ import unicode_literals
 
-from server.base_resource import BaseResource, resource_method
+from server.base_resource import BaseResource, resource_method, check_request
 from server.dao.user_dao import UserDao
 from server.resource.v2 import v2
+from utils.dict_util import StrRule
+
 
 @v2.route('/users')
 class UserResource(BaseResource):
@@ -30,6 +32,11 @@ class UserResource(BaseResource):
     """用户列表"""
 
     @resource_method()
-    def get(self, user_id, **request):
+    @check_request({
+        'name': StrRule('.+', nullable=False, illegal_value_notice='名称不能为空'),
+        'password': StrRule('^[\@A-Za-z0-9\!\#\$\%\^\&\*\.\~]{6,32}$', nullable=False,
+                            illegal_value_notice=u'密码由6-32位字符或者数字组成'),
+    })
+    def post(self, user_id, **request):
         print request
         return self.make_response({'user_id': user_id})

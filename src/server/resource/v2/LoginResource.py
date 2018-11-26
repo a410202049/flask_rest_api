@@ -95,6 +95,5 @@ class ProtectedResource(BaseResource):
     @fresh_jwt_required
     @resource_method()
     def post(self, **request):
-        a = 1 % 0
         current_user = get_jwt_identity()
         return self.make_response({"current_user": current_user})
