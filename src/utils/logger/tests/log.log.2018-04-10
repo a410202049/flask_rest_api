@@ -1,0 +1,23 @@
+[I][tm:2018-04-10 11:08:10][pt:2192:140735095275520][file:test_log:11][request_id:None]123123123123
+[I][tm:2018-04-10 11:08:10][pt:2192:140735095275520][file:test_log:11][request_id:None]123123123123
+[I][tm:2018-04-10 11:18:51][pt:2373:140735095275520][file:test_log:68][request_id:None]123123123123
+INFO:root: 123123123123(2018-04-10 11:19:47; test_log.py:68)
+INFO:root: 123123123123(2018-04-10 11:22:49; test_log.py:68)
+INFO:root: 123123123123(2018-04-10 11:23:06; test_log.py:68)
+INFO:root: 123123123123(2018-04-10 11:23:41; test_log.py:68)
+INFO:root: 12(2018-04-10 11:23:51; test_log.py:68)
+[I][tm:2018-04-10 11:24:08][pt:2508:140735095275520][file:test_log:68][request_id:None]12
+INFO:network: 12(2018-04-10 11:24:08; test_log.py:68)
+[I][tm:2018-04-10 11:25:08][pt:2527:140735095275520][file:test_log:68][request_id:None]12
+INFO:network: 12(2018-04-10 11:25:08; test_log.py:68)
+[E][tm:2018-04-10 11:25:08][pt:2527:140735095275520][file:test_log:69][request_id:None]1
+ERROR:network: 1(2018-04-10 11:25:08; test_log.py:69)
+[I][tm:2018-04-10 11:25:33][pt:2543:140735095275520][file:test_log:68][request_id:None]12
+INFO:network: 12(2018-04-10 11:25:33; test_log.py:68)
+[I][tm:2018-04-10 11:27:26][pt:2572:140735095275520][file:test_log:68][request_id:None]12
+[I][tm:2018-04-10 11:28:06][pt:2609:140735095275520][file:test_log:68][request_id:None]12
+INFO:root: 12(2018-04-10 11:28:13; test_log.py:68)
+[I][tm:2018-04-10 11:31:38][pt:2696:140735095275520][file:test_log:17][request_id:None]12
+[D][tm:2018-04-10 11:31:38][pt:2696:140735095275520][file:test_log:18][request_id:None]1
+[I][tm:2018-04-10 11:31:54][pt:2710:140735095275520][file:test_log:17][request_id:None]12
+[I][tm:2018-04-10 11:36:25][pt:2801:140735095275520][file:test_log:18][request_id:None]12

@@ -4,7 +4,7 @@ from __future__ import absolute_import
 from __future__ import unicode_literals
 
 from task import celery
-from library.context.context import Context
+from utils.context.context import Context
 
 ctx = Context()
 

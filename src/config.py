@@ -36,6 +36,14 @@ class DefaultConfig(object):
     # JWT_JSON_KEY = 'access_token'
     # JWT_REFRESH_JSON_KEY = 'refresh_token'
 
+    # Email config
+    MAIL_SERVER = 'xxx'
+    MAIL_PORT = 1122
+    MAIL_USE_SSL = True
+    MAIL_USE_TLS = False
+    MAIL_USERNAME = 'xxxx'
+    MAIL_PASSWORD = 'xxx'
+
     # REDIS CONFIG
     REDIS_CACHES = {
         'host': '127.0.0.1',

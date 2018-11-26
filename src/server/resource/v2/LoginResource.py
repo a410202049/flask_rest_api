@@ -5,9 +5,10 @@ from __future__ import unicode_literals
 
 from flask import current_app
 from flask_jwt_extended import create_access_token, create_refresh_token, get_jti, get_jwt_identity, \
-    jwt_refresh_token_required, get_raw_jwt, jwt_required, get_jwt_claims, fresh_jwt_required, get_current_user, \
-    decode_token
-from library.db_session import DBSessionForWrite, DBSessionForRead
+    jwt_refresh_token_required, get_raw_jwt, jwt_required, fresh_jwt_required
+
+from server.exception import ERROR
+from utils.db_session import DBSessionForWrite, DBSessionForRead
 
 from server.base_resource import BaseResource, resource_method
 from server.resource.v2 import v2
@@ -21,8 +22,8 @@ class LoginResource(BaseResource):
     def post(self, **request):
         username = request.get('username')
         password = request.get('password')
-        _redis = get_client()
 
+        _redis = get_client()
         with DBSessionForRead() as session:
             user = session.query(User).filter(
                 User.username == username
@@ -47,12 +48,11 @@ class LoginResource(BaseResource):
                 'refresh_token': refresh_token
             }
             return self.make_response(ret)
-        return self.make_response({'is_pass': False})
+        return self.make_response(resp_code=ERROR, resp_desc='用户或密码错误')
 
 
 @v2.route('/auth/refresh')
 class RefreshResource(BaseResource):
-
     @resource_method()
     @jwt_refresh_token_required
     def post(self, **request):
@@ -65,6 +65,7 @@ class RefreshResource(BaseResource):
         ret = {'access_token': access_token}
         return self.make_response(ret)
 
+
 @v2.route('/auth/access_revoke')
 class AccessRevokeResource(BaseResource):
     @resource_method()
@@ -75,6 +76,7 @@ class AccessRevokeResource(BaseResource):
         access_expires = current_app.config.get('JWT_ACCESS_TOKEN_EXPIRES')
         _redis.set(jti, 'true', access_expires)
         return self.make_response({"message": "Access token revoked"})
+
 
 @v2.route('/auth/refresh_revoke')
 class RefreshsRevokeResource(BaseResource):
@@ -93,9 +95,6 @@ class ProtectedResource(BaseResource):
     @fresh_jwt_required
     @resource_method()
     def post(self, **request):
+        a = 1 % 0
         current_user = get_jwt_identity()
-
-        print request
-        # current = get_current_user()
-        # a = decode_token('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIwMDRkOWY1MC1mY2UyLTQ0OGItYmU5Mi05NGVhMWNmYzVhZmYiLCJleHAiOjE1Mzc1MTY0MTMsImZyZXNoIjp0cnVlLCJpYXQiOjE1Mzc1MTU1MTMsInR5cGUiOiJhY2Nlc3MiLCJuYmYiOjE1Mzc1MTU1MTMsImlkZW50aXR5Ijp7InVzZXJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6IjEyMjJAcXEuY29tIn19.X4Y8Lh0Rt7ZyJHl-iyjEIFMDE6gMWo_T_TDeMqxh1HY')
         return self.make_response({"current_user": current_user})

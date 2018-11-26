@@ -8,9 +8,9 @@ import json
 
 from flask import request, current_app
 from flask_restplus import Resource
-from library.context.api_context import ApiContext
-from library.logger import log as logging
-from library.utils.dict_util import check_dict
+from utils.context.api_context import ApiContext
+from utils.logger import log as logging
+from utils.dict_util import check_dict
 from server.exception import SUCCESS, IllegalRequestException
 
 
@@ -38,8 +38,8 @@ class BaseResource(Resource):
         self.context.logger = self.logger
         super(BaseResource, self).__init__(api, *args, **kwargs)
 
-    def make_response(self, response=None):
-        base_resp = dict(resp_code=SUCCESS, resp_desc='成功')
+    def make_response(self, response=None, resp_code='RES0000', resp_desc='成功'):
+        base_resp = dict(resp_code=resp_code, resp_desc=resp_desc)
         resp = dict(
             resp=base_resp,
         )

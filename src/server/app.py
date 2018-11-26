@@ -9,8 +9,8 @@ import time
 from flask import Flask, jsonify
 from flask import Response
 from flask_restplus import Api
-from library import context
-from library.logger.log import init_logger_from_object
+from utils import context
+from utils.logger.log import init_logger_from_object
 
 from flask_jwt_extended import JWTManager
 
@@ -41,8 +41,12 @@ def create_app(config):
     from server.exception import init_api_error
     init_api_error(api)
 
+    # init utils
+    import utils
+    utils.init_app(app)
+
     # init db
-    from library import db_session
+    from utils import db_session
     db_session.init_app(app)
 
     # init redis

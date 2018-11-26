@@ -5,20 +5,22 @@ from __future__ import unicode_literals
 
 from flask_jwt_extended.exceptions import RevokedTokenError, FreshTokenRequired, InvalidHeaderError
 from jwt import ExpiredSignatureError
-from library.logger import log as logging
+from utils.logger import log as logging
 from server.app import ResourceResponse
 
 SUCCESS = 'RES0000'
-INVALID_REQUEST_VALUE = 'RES0001'
-SIGNATURE_ERROR = 'RES0002'
-RULE_NOT_FOUND = 'RES0003'
-TOKEN_EXPIRED = 'RES0004'
-TOKEN_REVOKED = 'RES0005'
-TOKEN_FRESH = 'RES0006'
-INVALID_HEADER = 'RES0007'
+ERROR = 'RES0001'
+INVALID_REQUEST_VALUE = 'RES0002'
+SIGNATURE_ERROR = 'RES0003'
+RULE_NOT_FOUND = 'RES0004'
+TOKEN_EXPIRED = 'RES0005'
+TOKEN_REVOKED = 'RES0006'
+TOKEN_FRESH = 'RES0007'
+INVALID_HEADER = 'RES0008'
 
 SYSTEM_ERROR = 'RES9999'
 logger = logging.get_logger()
+
 
 def init_api_error(api):
     if not api:
@@ -63,10 +65,16 @@ def init_api_error(api):
             error_msg = e.error_msg
         elif isinstance(e, Exception):
             logger.exception(u'service has exception: {0}'.format(e.message))
+            import traceback
+            from flask import current_app
+            from utils import email_util
+
+            title = u'ApiServer-%s-%s' % (current_app.config['CONFIG_NAME'], email_util.get_exception_message(e))
+            body = u'ApiServer异常: \n{message}'.format(message=traceback.format_exc())
+            email_util.send_warning_email(title, body, ['gaoyuan@axinfu.com'])
 
         resp = ResourceResponse(error_code, error_msg)
         return resp.get_base_response(), 200, resp.get_response_headers()
-
 
 
 class ResourceBaseException(Exception):
