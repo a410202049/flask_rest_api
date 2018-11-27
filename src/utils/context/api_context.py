@@ -5,8 +5,8 @@ from __future__ import unicode_literals
 
 import uuid
 import time
-from library.context.context import Context
-from library.logger import log as logging
+from ..context.context import Context
+from ..logger import log as logging
 
 
 class ApiContext(Context):

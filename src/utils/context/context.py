@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 
 import uuid
 from . import CONFIG
-from library.logger import log as logging
+from ..logger import log as logging
 
 
 class Context(object):
